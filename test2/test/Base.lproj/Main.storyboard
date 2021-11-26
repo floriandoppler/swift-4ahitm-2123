@@ -25,7 +25,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="J1G-eo-a0M"/>
-                        <color key="backgroundColor" red="0.65472131000092137" green="0.7693973183631897" blue="0.66951114528502564" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.81176996229999998" green="0.73466012780317669" blue="0.76347336868383708" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="mEs-i7-Ico"/>
                     <connections>
@@ -36,7 +36,7 @@
             </objects>
             <point key="canvasLocation" x="261" y="-929"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Tried Numbers-->
         <scene sceneID="AaY-rX-bmv">
             <objects>
                 <tableViewController id="OJp-Cu-YPG" customClass="TableViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
@@ -68,7 +68,7 @@
                             <outlet property="delegate" destination="OJp-Cu-YPG" id="lWe-KX-oIg"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="CJT-1U-1HR"/>
+                    <navigationItem key="navigationItem" title="Tried Numbers" id="CJT-1U-1HR"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="42u-Pa-RQG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -91,8 +91,8 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zub-JN-NCg">
-                                <rect key="frame" x="186" y="388" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="180.5" y="385" width="53.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -110,8 +110,10 @@
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="75" id="9wc-uN-hHs"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="LHN-c2-KID"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="100" id="R9b-jB-vNE"/>
                                     <constraint firstAttribute="width" constant="75" id="aVL-ow-WvC"/>
                                     <constraint firstAttribute="height" constant="30" id="fXD-fz-NfJ"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="30" id="kSq-Vu-JTM"/>
                                 </constraints>
                                 <state key="normal" title="New Game"/>
                                 <connections>
@@ -120,15 +122,18 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.6098517616568615" green="0.77446974754100006" blue="0.80547757492851968" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.77913343178918659" green="0.7800273251292289" blue="0.81022148525591975" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="OT2-FG-S3D" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="170" id="9KO-Ft-P8A"/>
                             <constraint firstItem="ymz-69-opf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JLT-og-XZl"/>
+                            <constraint firstItem="OT2-FG-S3D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uod-oB-Faf"/>
                             <constraint firstItem="zub-JN-NCg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yk3-UX-wP1"/>
                             <constraint firstItem="ngu-Yc-bzw" firstAttribute="top" secondItem="ymz-69-opf" secondAttribute="bottom" constant="24" id="esD-cP-pG4"/>
                             <constraint firstItem="ngu-Yc-bzw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g4a-PT-Y27"/>
+                            <constraint firstItem="OT2-FG-S3D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iZu-cY-8p1"/>
                             <constraint firstItem="ymz-69-opf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oAo-em-zkf"/>
                             <constraint firstItem="OT2-FG-S3D" firstAttribute="top" secondItem="ngu-Yc-bzw" secondAttribute="bottom" constant="17" id="pKE-j7-IJQ"/>
+                            <constraint firstItem="OT2-FG-S3D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s9w-sy-lkw"/>
                             <constraint firstItem="ymz-69-opf" firstAttribute="top" secondItem="zub-JN-NCg" secondAttribute="bottom" constant="24" id="vne-J8-t25"/>
                         </constraints>
                     </view>
@@ -143,7 +148,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-74" y="-265"/>
+            <point key="canvasLocation" x="-75.362318840579718" y="-265.17857142857144"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="htg-fj-btv">

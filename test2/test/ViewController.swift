@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     func initalize(){
         model.numberToGuess = Int(arc4random_uniform(100));
-        label.text = "Try to guess the number!"
+        label.text = "Guess The Number!"
         
         print(model.numberToGuess)
     }
@@ -70,15 +70,15 @@ class ViewController: UIViewController {
             
             switch compareResult{
             case -1:
-                text = "Your number is to low"
+                text = "Higher! ⬆️"
                 label.text = text
                 return false
             case 1:
-                text = "Your number is too high"
+                text = "Lower! ⬇️"
                 label.text = text
                 return false
             default:
-                text = "Hurray! Thats the number!"
+                text = "Congrats! 🎉"
                 label.text = text
                 return true
             }
